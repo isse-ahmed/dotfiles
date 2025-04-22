@@ -24,4 +24,8 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+# Aliases
 alias ll='ls -la'
+
+# Path Exporting
+export PATH="$HOME/.cargo/bin:$PATH"
