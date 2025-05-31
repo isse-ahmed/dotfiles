@@ -29,3 +29,13 @@ alias ll='ls -la'
 
 # Path Exporting
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Startup Starship.rs 
+eval "$(starship init bash)"
+
+# Set Default Terminal Editor 
+export VISUAL="/usr/bin/vim"
+export EDITOR="$VISUAL"
+
+# Set editor mode to vi 
+set -o vi

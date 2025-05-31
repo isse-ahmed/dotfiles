@@ -201,15 +201,13 @@ tooltip label {
   padding-left: 3px;
 }
 
-/*
 #custom-distro {
   color: @distro-fg;
-  background: @distro-bg;
+  background: @main-bg;
   margin: 0 -1px -2px 0;
   padding: 0 0 0 3px;
   text-shadow: 0 0 1.5px rgba(0, 0, 0, 1);
 }
-*/
 
 #custom-right2 {
   color: @main-bg;
